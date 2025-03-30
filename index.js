@@ -17,5 +17,3 @@ app.get("/host", (req, res) => {
   res.send(os.hostname());
 });
 
-console.log("file is running...");
-

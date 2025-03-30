@@ -1,6 +1,6 @@
 import cluster from "cluster";
 import os from "os";
-import { app } from "./index";
+import { app } from "./index.js";
 
 const cpus = os.cpus().length;
 
